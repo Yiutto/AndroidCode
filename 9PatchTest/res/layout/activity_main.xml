@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <!-- 用普通图片做背景按钮 -->
+    <Button 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="普通按钮	"
+        android:background="@drawable/tao"
+        />
+    <!-- 用9Patch图片做背景按钮 -->
+    <Button 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="特殊按钮	"
+        android:background="@drawable/tao1"
+        />
+</LinearLayout>
+
